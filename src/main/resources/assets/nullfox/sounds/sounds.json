@@ -1,0 +1,10 @@
+{
+  "daisy_bell": {
+    "sounds": [
+      {
+        "name": "nullfox:daisy_bell",
+        "stream": true
+      }
+    ]
+  }
+}

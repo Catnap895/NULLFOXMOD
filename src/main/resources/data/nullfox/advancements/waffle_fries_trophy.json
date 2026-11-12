@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "nullfox:null_fox_trophy"
+    },
+    "title": {
+      "text": "Satisfied the Glitch"
+    },
+    "description": {
+      "text": "Delivered waffle fries to Null_Fox within 20 seconds and survived."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_trophy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nullfox:null_fox_trophy"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
